@@ -1,0 +1,460 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header
+{
+	background-image: url(../img/top_bg.jpg);
+	background-repeat: repeat;
+	background-position: top center;
+	min-height: 678px;
+	position: relative;
+	background-size: cover;
+}
+.top_menu
+{
+	min-height:  47px;
+	background-color: rgba(255,255,255,.5);
+	padding: 10px 0;
+}
+.manu_name 
+{
+ 	font-family: "BebasBold";
+	font-size: 30px;	
+}
+.manu_name a
+{
+	display: block;
+ 	color: #68c3f0;
+ 	text-transform: uppercase;
+ 	font-weight: normal;
+ 	text-align: center;
+}
+.manu_name a:hover
+{
+	color: #044e6a;
+	transition: 0.8s;
+}
+
+.mine_cats
+{
+	background-color: #05222f;	
+	padding: 10px 0 310px;
+	margin-top: -5px;
+}
+.logo
+{
+	-moz-position: absolute;
+	-o-position: absolute;
+	-webkit-position: absolute;
+	position: absolute;
+	top: 160px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.mine_cats h2
+{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-family: "BebasBold";
+	font-size: 40px;
+	text-align: center;
+-webkit-text-stroke: 1px black;
+text-shadow: 1px 1px 2px rgba(0,0,0,.4), 0 0 1em blue;
+}
+section h2 
+{
+	position: relative;
+}
+.mc_my
+{
+	padding-top: 2.188em;
+}
+.mc_my_wraps_right
+{
+	height: 180px;
+	width: 300px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: rgba(255,255,255,.5);	
+	padding: 1em;
+	text-align: center;
+}
+.logo_text
+{
+	align-items: center;
+}
+.mc_my_wraps_text
+{
+	font-family: "BebasRegular";
+	font-style: italic;
+	font-size: 1.3em;
+	text-align: center;	
+}
+.mc_text_aut
+{
+	font-family: "BebasRegular";
+	font-style: italic;
+	font-size: 1.3em;
+	float: right;
+	margin-top: 10px;
+}
+.my_wraps_education
+{
+	-moz-position: absolute;
+	-o-position: absolute;
+	-webkit-position: absolute;
+	position: absolute;
+	top: 160px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0.6;
+}
+.my_wraps_education_bosstext
+{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-family: "BebasBold";
+	font-size: 40px;
+	text-align: center;
+-webkit-text-stroke: 1px black;
+    margin-top: 92px;
+}
+.mc_my_edu
+{
+	padding-top: 1em;
+}
+.mc_my_edu_textcolom
+{
+	margin-top: 30px;
+}
+.mc_my_wraps_education
+{
+	height: 350px;
+	-moz-height: 350px;
+	width: 300px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: rgba(255,255,255,.5);	
+	padding: 1em;
+	text-align: center;
+}
+.mc_my_wraps_education img
+{
+	text-align: center;
+	display: inline-block;
+}
+.text_beisik
+{
+	text-transform: uppercase;
+	font-family: "BebasBold";
+}
+.text_year_education span
+{
+	font-size: 30px;
+}
+.text_year_education h3
+{
+	margin: 0;
+}
+.text_boss_education
+{
+	font-size: 40px;
+	color: #fff;
+}
+.text_edu
+{
+ 	font-size: 25px;
+}
+.text_staff_education
+{
+	font-size: 20px;
+}
+.skills_bg
+{
+	background-image: url(../img/skills_bg.jpg);	
+	padding: 10px 0 45px;
+	min-height: 596px;
+	background-size: cover;
+	display: block;
+  	position: relative;
+ 	-webkit-clip-path: polygon(0 100%,0 10%, 50% 0, 100% 10%,100% 100%);
+    clip-path: polygon(0 100%,0 10%, 50% 0, 100% 10%,100% 100%);
+    -moz-clip-path: polygon(0 100%,0 10%, 50% 0, 100% 10%,100% 100%);
+    -o-clip-path: polygon(0 100%,0 10%, 50% 0, 100% 10%,100% 100%);
+    margin-top: -260px;
+}
+.my_wraps_education_bosstext_skills
+{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-family: "BebasBold";
+	font-size: 55px;
+	text-align: center;
+	-webkit-text-stroke: 1px black;
+    margin-top: 45px;
+}
+.my_wraps_education_bosstext_portfolio
+{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-family: "BebasBold";
+	font-size: 55px;
+	text-align: center;
+	-webkit-text-stroke: 1px black;
+    margin-top: 45px;
+}
+.mc_my_skills
+{
+	padding-top: 30px;
+}
+.mc_my_wraps_skills
+{
+	height: 380px;
+	width: 300px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background-color: rgba(255,255,255,.5);	
+	padding: 1em;
+	text-align: left;
+}
+.pr_skills
+{
+	width: 134px;
+	text-align: center;
+	position: absolute; 
+}
+.pr_skills_right
+{
+	width: 134px;
+	text-align: center;
+	float: right;
+}
+.mc_my_skills_text
+{
+	font-family: "BebasBold";
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.part2
+{
+	margin-top: 120px;
+}
+.part3
+{
+	margin-top: 240px;
+}
+.mc_my_skills_text_small
+{
+	font-family: "BebasBold";
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 6px;
+}
+.pr_skills_right_bot
+{
+	width: 134px;
+	text-align: center;
+	margin-left: 135px;
+}
+.img01
+{
+	text-align: center;
+	padding-top: 20px;
+}
+.img01 img:hover
+{
+	box-shadow: 0 0 30px rgba(255,255,255,0.2);
+}
+.mine_cats_part2
+{
+	background-image: url(../img/bg.jpg);
+	min-height: 200px;	
+	padding: 10px 0 10px;
+	background-size: cover;
+	margin-top: -5px;
+}
+.bottom_line
+{
+	background-color: #019edb;
+	margin-top: -5px;
+	min-height: 90px;
+}
+.get_in_touch
+{
+	text-transform: uppercase;
+	color: #f0f0f0;
+	font-family: "BebasBold";
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+}
+.get_in_touch_diamond
+{
+
+	position: absolute;
+	top:108px;
+
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0.6;
+
+}
+.cats
+{
+	margin: 20px;
+}
+.contact_img
+{
+	position:relative;
+	text-align: center;
+}
+.contsct_main_text
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "BebasBold";
+	font-size: 30px;
+	display: block;
+}
+.contsct_main_text:hover
+{
+	
+	color: #66cdcc;
+	transition: 0.2s;
+}
+.text
+{
+	text-align: center;
+}
+.contact_text
+{
+	color: #fff;
+	font-family: "RobotoMedium";
+}
+.top
+{
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid #019edb;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.top p
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "BebasBold";
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+	margin-left: -15px;
+}
+
+@-moz-document url-prefix() {
+ 	.get_in_touch_diamond {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0.6;
+}
+	.mc_my_wraps_education {
+    height: 370px;
+    width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: rgba(255,255,255,.5);
+    padding: 1em;
+    text-align: center;
+}
+	.logo
+{
+	position: absolute;
+	top: 80px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+	.my_wraps_education
+{
+
+	position: absolute;
+	top: 90px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	opacity: 0.6;
+}
+
+}
